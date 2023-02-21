@@ -1,0 +1,38 @@
+body
+{
+    background: linear-gradient(rgb(126, 235, 235) 0%, rgb(16, 189, 171) 100%);
+}
+.heading
+{
+    font-size: 28px;
+    width: 100%;
+    line-height: 2;
+    margin: 0px;
+    box-shadow: 5px 5px 10px grey;
+    text-shadow: 2px 2px 2px red;
+}
+.note
+{
+    font-size: 18px;
+    color: black;
+    text-shadow: 2px 2px 2px azure;
+}
+.copyright_footer
+{
+    color: white;
+    bottom: 0;
+    line-height: 3;
+    font-size: 18px;
+    background-color: rgba(128, 128, 128, 0.74);
+    text-align: center;
+    width: 100%;
+    position: fixed;
+}
+canvas
+{
+    border-radius: 10px;
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 10px grey;
+}
